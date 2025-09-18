@@ -1,5 +1,5 @@
 # RCE in motioneye <= 0.43.1b4
-MotionEye RCE via Client-Side Validation Bypass through config parameter
+MotionEye RCE via Client-Side Validation Bypass through config parameter:  motionEye is an online interface for the software motion, a popular video surveillance program with motion detection. (https://github.com/motioneye-project/motioneye)
 
 ## Summary
 During security testing of a MotionEye instance running in Docker, it was observed that client-side validation within the web UI can be bypassed. This allows arbitrary input to be submitted, including payloads that can trigger execution on the host container. The issue poses a risk of remote code execution (RCE) if exploited.
