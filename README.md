@@ -231,4 +231,4 @@ data['snapshot_filename'] = (sub(r'[^A-Za-z0-9._%/-]', '_', ui['image_file_name'
 ---
 
 ## Additional Notes
-- Maintainers are aware of this issue and in process of fixing as of sep 2025.
+- Maintainers are aware of this issue as of Aug 2025.
